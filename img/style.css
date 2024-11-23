@@ -1,0 +1,94 @@
+html{
+   scroll-behavior: smooth;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-end;
+   align-items: center;
+   height: 100%;
+   min-height: 100vh;
+   /* background: blue; */
+   
+}
+
+nav{
+
+}
+
+section{
+   display: flex;
+   height: 60vh;
+   width: 100%;
+   gap: 2%;
+   background: yellow;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+   section{
+      height: auto;
+      gap: 32px;
+      flex-wrap: nowrap;
+      flex-direction: column;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+article{
+   height: 10vh;
+   width: 30vw;
+   background: red;
+}
+
+@media only screen and (max-width: 600px) {
+    article{
+      background: purple;
+      width: 100%;
+      height: 40vh;
+    }  
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+   article{
+      border-radius: 100%;
+   }
+}
+
+@media (hover: hover) {
+
+}
+
+#a-propos{
+   background: green;
+}
+
+#contacter{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: grey;
+}
+
+span{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   right: 32px;
+   bottom: 32px;
+   height: 100px;
+   width: 100px;
+   background: pink;
+}
+
