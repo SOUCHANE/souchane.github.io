@@ -264,7 +264,7 @@ footer .contact-button{
     background: black;
     color: #fff;
     border-radius: 5px;
-    transition: background 0.3s, color 0.3;
+    transition: 0.3s, color 0.3;
 }
 
 footer .contact-button:hover{
@@ -301,13 +301,13 @@ section{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     nav ul{
         flex-direction: column;
         gap: 10px;
     }
 
-    .compétences-container, .temoignages-container{
+    .compétences-container , .témoignages-container{
         flex-direction: column;
     }
 
@@ -320,3 +320,15 @@ section{
         text-align: center;
     }
 }
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    height: 100px;
+    width: 100px;
+    background: pink;
+ }

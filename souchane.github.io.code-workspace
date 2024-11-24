@@ -1,14 +1,10 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../../../Downloads/media queries/media queries"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "souchane.github.io",
-		"liveServer.settings.port": 5501
-	}
+    "folders": [
+        {
+            "path": "../../../Documents/souchane.github.io(2)"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.port": 5501
+    }
 }
